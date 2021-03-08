@@ -22,7 +22,7 @@ import net.runelite.client.util.Text;
 
 @Slf4j
 @PluginDescriptor(
-	name = "NMZ Utilties"
+	name = "NMZ Utilities"
 )
 public class NMZUtilPlugin extends Plugin
 {
