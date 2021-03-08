@@ -31,17 +31,6 @@ public interface NMZUtilConfig extends Config
 	}
 
 	@ConfigItem(
-		keyName = "rockCake",
-		name = "Rock Cake Guzzle",
-		description = "Enables Left Click 'Guzzle' on the Dwarven Rock Cake.",
-		position = 3
-	)
-	default boolean rockCake()
-	{
-		return false;
-	}
-
-	@ConfigItem(
 		keyName = "swapBarrel",
 		name = "Barrel Menu Swap",
 		description = "Swap 'Check' with 'Take' on potion storage barrels",

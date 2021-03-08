@@ -117,11 +117,6 @@ public class NMZUtilPlugin extends Plugin
 		final String option = Text.removeTags(menuEntry.getOption()).toLowerCase();
 		final String target = Text.removeTags(menuEntry.getTarget()).toLowerCase();
 
-		if (config.rockCake() && target.equals("dwarven rock cake") && option.equals("eat"))
-		{
-			swap("guzzle", option, target, index);
-		}
-
 		if(config.swapBarrels() && (target.equals("absorption potion")
 			|| target.equals("overload potion")
 			|| target.equals("super magic potion")
